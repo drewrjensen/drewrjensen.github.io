@@ -1,0 +1,15 @@
+html {
+  background: #131415;
+  color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  text-transform: uppercase;
+}
+
+footer, header {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
