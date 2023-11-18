@@ -4,12 +4,30 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-footer {
-  text-transform: uppercase;
-}
-
-footer, header {
+header {
   display: table;
   margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  display: table;
+  margin: 20px auto;
+  text-align: center;
+}
+
+body a {
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+body a img {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+footer {
+  display: table;
+  margin: 20px auto;
   text-align: center;
 }

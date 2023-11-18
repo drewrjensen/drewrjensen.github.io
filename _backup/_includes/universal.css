@@ -1,9 +1,0 @@
-header, footer {
-  display: table;
-  margin: 0 auto;
-  text-align: center;
-}
-
-footer {
-  text-transform: uppercase;
-}
