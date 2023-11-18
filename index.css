@@ -42,5 +42,11 @@ main a img {
 }
 
 footer {
+  align-items: center;
+  display: flex;
   margin: 20px auto;
+}
+
+footer img {
+  margin: 0 5px;
 }
