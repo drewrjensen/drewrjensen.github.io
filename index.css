@@ -2,6 +2,7 @@ html {
   background: #131415;
   color: #ddd;
   font-family: 'Open Sans', sans-serif;
+  min-width: 320px;
 }
 
 body {
@@ -13,47 +14,33 @@ body {
 header {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
+  margin: 20px auto;
 }
 
 header h1 {
-  flex: 1;
-  line-height: 100px;
+  margin: 0 10px;
 }
 
 header img {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(-120%, -50%);
-  vertical-align: middle;
+  margin: 0 10px;
 }
 
 main {
   align-items: center;
   display: flex;
   flex: 1;
-  justify-content: center;
-  margin: 20px auto;
-  text-align: center;
+  justify-content: space-around;
+  margin: 0 20%;
 }
 
 main a {
   margin: 20px 20px;
-  text-decoration: none;
 }
 
 main a img {
-  min-width: 100px;
   max-width: 100px;
 }
 
 footer {
-  display: table;
   margin: 20px auto;
-  text-align: center;
 }
