@@ -4,24 +4,50 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
-  display: table;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
+  position: relative;
   text-align: center;
 }
 
-body {
-  display: table;
+header h1 {
+  flex: 1;
+  line-height: 100px;
+}
+
+header img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-120%, -50%);
+  vertical-align: middle;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
   margin: 20px auto;
   text-align: center;
 }
 
-body a {
+main a {
   margin: 20px 20px;
   text-decoration: none;
 }
 
-body a img {
+main a img {
   min-width: 100px;
   max-width: 100px;
 }
