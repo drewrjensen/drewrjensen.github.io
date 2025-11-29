@@ -12,7 +12,7 @@
 "satellites": [
     {"name": "Io", "diameterKm": "3630"},
     {"name": "Europa", "diameterKm": "3138"},
-    {"name": "TEST LMAO MiM25 Ganymede", "diameterKm": "5262 TEST"},
+    {"name": "TEST LMAO MiM25 Ganymede", "diameterKm": "526267"},
     {"name": "Callisto", "diameterKm": "4800"}
 ]
 },
